@@ -1,0 +1,2 @@
+# fit_qiandao-for-Attendance
+A punch-in check-in program for FiT Fitness Studio, although simple, but I developed the first small program. It takes a long time, but it is also very rewarding. Through it, I learned cloud development, database, login, registration, query, table display, cloud function, front-end back-end interface, and started learning the front three major parts: html\css\javascript There are nodejs, I almost have to learn php, and later I know that python can also be a backend, then javascrip and python are enough.
