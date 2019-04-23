@@ -1,0 +1,22 @@
+<view class="container">
+    <text> 请选择教练  </text>
+</view>
+
+
+  <view class="uploader">
+    <navigator url="../jiaolian1/jiaolian1" open-type="navigate" class="uploader-text">
+      <text>林教练</text>
+    </navigator>
+  </view>
+
+    <view class="uploader">
+    <navigator url="../jiaolian2/jiaolian2" open-type="navigate" class="uploader-text">
+      <text>刘教练</text>
+    </navigator>
+  </view>
+
+      <view class="uploader">
+    <navigator url="../jiaolian3/jiaolian3" open-type="navigate" class="uploader-text">
+      <text>王教练</text>
+    </navigator>
+  </view>

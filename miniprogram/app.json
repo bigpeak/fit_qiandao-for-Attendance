@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/jiaolian/jiaolian",
+    "pages/qiandao/qiandao",
+    "pages/jiaolian1/jiaolian1",
+    "pages/jiaolian2/jiaolian2",
+    "pages/jiaolian3/jiaolian3"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

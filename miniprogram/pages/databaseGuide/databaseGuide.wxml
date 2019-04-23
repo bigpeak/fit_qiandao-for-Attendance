@@ -1,0 +1,4 @@
+      <button size="mini" type="default" bindtap="onQuery">查询记录</button>
+<view wx:for="{{book_list}}">
+{{item.nickname}}{{item.gen}}于{{item.mytime}}签到
+</view>

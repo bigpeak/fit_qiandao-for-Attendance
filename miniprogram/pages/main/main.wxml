@@ -1,0 +1,11 @@
+
+
+
+
+ <!-- 操作数据库 -->
+  <view class="uploader">
+    <navigator url="../jiaolian/jiaolian" open-type="navigate" class="uploader-text">
+      <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">请登录</button>
+    </navigator>
+  </view>
+

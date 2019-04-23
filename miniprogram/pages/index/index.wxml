@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+       <button 
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+      ></button>
+    <view>
+      <button
+       open-type="getUserInfo"
+       bindgetuserinfo="bindGetUserInfo"
+       bindtap="onAdd">签到</button>
+    </view>
+  </view>
+
+
+  <!-- 操作数据库 -->
+  <view class="uploader">
+    <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">
+      <text>查看签到记录</text>
+    </navigator>
+  </view>
+
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">请登录</button>
+
+</view>

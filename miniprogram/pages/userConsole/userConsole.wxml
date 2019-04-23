@@ -1,0 +1,13 @@
+<!--pages/userConsole/userConsole.wxml-->
+<view class="container">
+
+  <view class="list">
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">用户签到成功</text>
+    </view>
+    <view class="list-item" bindtap="testCgi">
+      <text class="request-text">"用户微信身份识别码:",{{openid}}</text>
+    </view>
+  </view>
+
+</view>
