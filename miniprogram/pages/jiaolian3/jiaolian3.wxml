@@ -1,24 +1,43 @@
 <view class="container">
 
- <h1>王教练是一位经验丰富的教练。</h1> 
+
 
  
   <!-- 用户 openid -->
   <view class="userinfo">
-       <button 
-      class="userinfo-avatar"
-      ></button>
+
     <view>
       <button
-       bindtap="onAdd">签到</button>
+       bindtap="onAdd">点击签到</button>
     </view>
-  
-<button  bindtap="onQuery" >查询记录</button>
+
+  <view > {{ qiandao }} </view>
+
   </view>
 
-<view wx:for="{{book_list}}">
+  <view class="userinfo"> 
+    <view>
+      <button   bindtap="sumOnQuery" >王教练客户上课签到总数：</button>
+    </view>  
+    <view>{{ message }}节课 </view>
+  </view>  
+
+
+
+<button  class="userinfo" bindtap="onQuery" >点击查询记录</button>
+
+
+
+<view class = "tunnel-text" wx:for="{{book_list}}"  wx:key="{{nickname}}">
 {{item.nickname}}{{item.gen}}于{{item.mytime}}签到
 </view>
+
+
+
+
+
+
+
 
 
 

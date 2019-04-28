@@ -1,5 +1,8 @@
 
-
+<div class="canvas-wrapper">
+    <!-- 在移动端上使用rem单位，需要设置父元素宽高 -->
+    <canvas id="canvas1"></canvas>
+</div>
 
 
  <!-- 操作数据库 -->
@@ -8,4 +11,7 @@
       <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">请登录</button>
     </navigator>
   </view>
+
+
+
 
